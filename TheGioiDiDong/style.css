@@ -28,7 +28,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1000;
+   
 }
 
     nav ul li a {
@@ -147,6 +147,7 @@ nav ul {
 /*-------Address Form------------*/
 .address-form {
     position: fixed;
+    z-index: 999; 
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0,.75);
@@ -576,8 +577,7 @@ li {
 /*---DANG NHAP---*/
 .wrapper{
     padding-top: 50px;
-    position: fixed;
-    z-index: 999;  
+    position: fixed; 
     width:400px;
     height:440px;
     background-color: gray;
@@ -644,7 +644,7 @@ li {
     align-items: center;
     border-bottom-left-radius: 20px;
     cursor: pointer;
-    z-index:1;
+    
 }
 
 .form-box h2{
